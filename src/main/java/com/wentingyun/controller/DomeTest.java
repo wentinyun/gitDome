@@ -8,5 +8,7 @@ public class DomeTest {
     @GetMapping("/user")
     public void user(){
         System.out.println("user");
+
+        System.out.println("login");
     }
 }
